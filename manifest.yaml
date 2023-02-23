@@ -1,0 +1,16 @@
+apiVersion: urcaps/v1.0
+metadata:
+  vendorID: com-jbm-urcap-sample
+  urcapID: scriptcommunicator
+  version: v1.0
+  vendorName: Universal Robots
+  urcapName: Script Communicator
+  contactInfo: Energivej 25, 5260 Odense S, Denmark
+  description: Script Communicator
+  startup: auto
+  copyright: Copyright (c) 2009-2022 Universal Robots. All rights reserved.
+  licenseType: Sample license
+artifacts:
+  osgiBundles:
+  - name: scriptcommunicator-osgi
+    bundle: scriptcommunicator-1.0.jar
